@@ -4,7 +4,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "dev": "concurrently \"nodemon server\" \"cd ../Front-End && npm start\""
+    "dev": "concurrently \"nodemon server\" \"cd ../Front-end && npm start\""
   },
   "keywords": [],
   "author": "",
@@ -12,6 +12,7 @@
   "description": "your project",
   "dependencies": {
     "bcrypt": "^5.1.1",
+    "concurrently": "^9.2.1",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "date-fns": "^4.1.0",
